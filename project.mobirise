@@ -501,35 +501,13 @@
           "_global": true,
           "_once": "menu",
           "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            }
-          },
-          "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x957.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                    FULL SCREEN INTRO\n                </h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                    Beautiful mobile websites\n                </h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Click any text to edit or style it. Select text to insert a link. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add themes.\n                </p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit2 mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 25px; color: rgb(16, 42, 204);\"></span>WSPÓŁPRACA Z NAMI&nbsp;</a> \n                    <a class=\"btn btn-md btn-info-outline\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"><span class=\"mbri-edit mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 23px; color: rgb(255, 255, 255);\"></span>WARUNKI W NASZEJ FIRMIE</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_cid": "qTkA127IK8",
-          "_anchor": "header2-1",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
     "page1.html": {
       "settings": {
-        "meta_descr": "Web Creator Description",
-        "title": "GALERIA&nbsp;",
+        "meta_descr": "",
+        "title": "GALERIA",
         "order": 1
       },
       "components": [
@@ -942,8 +920,8 @@
     },
     "page2.html": {
       "settings": {
-        "meta_descr": "Web Site Generator Description",
-        "title": "O NAS&nbsp;",
+        "meta_descr": "",
+        "title": "O NAS",
         "order": 2
       },
       "components": [
@@ -1356,7 +1334,7 @@
     },
     "page3.html": {
       "settings": {
-        "meta_descr": "Web Generator Description",
+        "meta_descr": "",
         "title": "KONWOJE",
         "order": 3
       },
@@ -1770,7 +1748,7 @@
     },
     "page4.html": {
       "settings": {
-        "meta_descr": "Web Site Maker Description",
+        "meta_descr": "",
         "title": "NASZA FLOTA",
         "order": 4
       },
@@ -2184,7 +2162,7 @@
     },
     "page5.html": {
       "settings": {
-        "meta_descr": "Web Creator Description",
+        "meta_descr": "",
         "title": "ZARZĄD FIRMY",
         "order": 5
       },
@@ -2598,7 +2576,7 @@
     },
     "page6.html": {
       "settings": {
-        "meta_descr": "Web Builder Description",
+        "meta_descr": "",
         "title": "KIEROWCY",
         "order": 6
       },
@@ -3012,7 +2990,7 @@
     },
     "page7.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "",
         "title": "KONTAKT",
         "order": 7
       },
