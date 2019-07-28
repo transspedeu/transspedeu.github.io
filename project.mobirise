@@ -2335,13 +2335,13 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/0001-2000x2828.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/0001-2000x2828-800x1131.jpg",
+                "image": "@PROJECT_PATH@/assets/images/0001-2-2000x2828.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/0001-2-2000x2828-800x1131.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TRANSPORT SCANII &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 27.07.2019",
-                "active": true
+                "caption": "TRANSPORT SCANII &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 27.07.2019",
+                "active": false
               },
               {
                 "tags": "Niesamowite",
@@ -2354,7 +2354,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "TRANSPORT PACZEK POCZTOWYCH I LISTÓW. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 28.07.2019",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Niesamowite",
@@ -2366,7 +2366,7 @@
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
-                "caption": "TRANSPORT AUT OSOBOWYCH &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.07.2019",
+                "caption": "TRANSPORT AUT OSOBOWYCH &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30.07.2019",
                 "active": false
               }
             ]
