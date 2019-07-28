@@ -4886,6 +4886,68 @@ body {
 .cid-rx5soS1YNt .body-item {
   color: #ff0505;
 }
+.cid-rxyvBod59d {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #000000;
+}
+.cid-rxyvBod59d .mbr-section-text {
+  color: #c1c1c1;
+}
+.cid-rxyvBod59d .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rxyvBod59d .tabcont {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rxyvBod59d .mbr-iconfont {
+  font-size: 48px;
+}
+.cid-rxyvBod59d .card-img {
+  margin-bottom: 1.5rem;
+}
+.cid-rxyvBod59d .tab-content-row {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.cid-rxyvBod59d .tab-content {
+  margin-top: 3rem;
+  width: 100%;
+}
+.cid-rxyvBod59d .nav-tabs {
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  border-bottom: none;
+}
+.cid-rxyvBod59d .nav-tabs .nav-link {
+  box-sizing: border-box;
+  color: #15b2e7;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 1rem 3rem;
+  margin: 0.4rem .8rem !important;
+  transition: color .3s;
+  border: 2px solid #15b2e7;
+}
+.cid-rxyvBod59d .nav-tabs .nav-link:hover {
+  background: #000000;
+}
+.cid-rxyvBod59d .nav-tabs .nav-link.active {
+  color: #ffffff;
+  font-style: normal;
+  border: 2px solid #000000;
+  background: #000000;
+}
+.cid-rxyvBod59d .nav-tabs .nav-link.active:hover {
+  border: 2px solid #000000;
+}
+.cid-rxyvBod59d H4 {
+  color: #56d44f;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #000000;
