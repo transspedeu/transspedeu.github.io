@@ -2582,6 +2582,19 @@
                 "customStyle1": "display-7",
                 "caption": "TRANSPORT AUT OSOBOWYCH &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 30.07.2019",
                 "active": true
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/cmr-4-2000x2828.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cmr-4-2000x2828-800x1131.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "TRANSPORT MASZYN BUDOWLANYCH &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;03.08.2019",
+                "active": false
               }
             ]
           }
