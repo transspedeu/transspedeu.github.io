@@ -3466,12 +3466,12 @@
           "_once": false,
           "_params": {
             "slides__autoplay": true,
-            "slides__autoplayInterval": "3000",
+            "slides__autoplayInterval": "7000",
             "slides__showBullets": false,
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/10557246.255000006-ets2-20190730-173046-1920x1080.png",
-                "active": false,
+                "active": true,
                 "showButtons": false,
                 "showText": true,
                 "showTitle": true,
@@ -3506,7 +3506,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/mbr-1920x1200.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
