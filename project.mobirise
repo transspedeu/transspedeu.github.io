@@ -3466,7 +3466,7 @@
           "_global": false,
           "_once": false,
           "_params": {
-            "slides__autoplay": true,
+            "slides__autoplay": false,
             "slides__autoplayInterval": "8000",
             "slides__showBullets": false,
             "slides": [
@@ -3503,7 +3503,7 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "ZAPRASZAMY WSZYSTKICH ZAINTERESOWANYCH",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary-outline\" data-app-placeholder=\"Type Text\" href=\"https://trucksbook.eu/convoy/3277\" data-toolbar=\"-mbrBtnMove\">WIĘCEJ INFO O KONWOJU</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://trucksbook.eu/company/45087\" data-toolbar=\"-mbrBtnMove\">ZAPRASZAMY DO FIRMY</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary-outline\" data-app-placeholder=\"Type Text\" href=\"https://trucksbook.eu/convoy/3299\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">WIĘCEJ INFO O KONWOJU</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" data-app-placeholder=\"Type Text\" href=\"https://trucksbook.eu/company/45087\" data-toolbar=\"-mbrBtnMove\">ZAPRASZAMY DO FIRMY</a>"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/szybkielajki-opinie-1-1.webp",
@@ -3520,7 +3520,7 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "PO KONWOJU ZAPRASZAMY NA FB W CELU WYSTAWIENIA OPINI&nbsp;",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/VSTRANSSPEDPOLAND/\" data-toolbar=\"-mbrBtnMove\">ZAPRASZAMY NA NASZEGO FB</a> ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-info display-4\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/transsped.poland\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ZAPRASZAMY NA NASZEGO FB</a> ",
                 "overlayOpacity": "0.8"
               }
             ]
