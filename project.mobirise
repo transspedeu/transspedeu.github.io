@@ -3467,7 +3467,7 @@
           "_once": false,
           "_params": {
             "slides__autoplay": true,
-            "slides__autoplayInterval": "7000",
+            "slides__autoplayInterval": "8000",
             "slides__showBullets": false,
             "slides": [
               {
@@ -3490,7 +3490,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/konwj-cignikw-rolniczych-1846x1080.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -3507,7 +3507,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/szybkielajki-opinie-1-1.webp",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
